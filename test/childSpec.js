@@ -1,6 +1,6 @@
 var expect = require("chai").expect,
 	Process = require("../child.js"),
-	intercept = require("../../intercept-stdout/intercept-stdout.js");
+	intercept = require("intercept-stdout");
 
 describe("Process", function() {
 	
